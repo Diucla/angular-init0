@@ -7,11 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FeedComponent implements OnInit {
 
-    teste = [
-        {user: "Sumbus"}
-    ];
 
-  tweets  = [
+     tweets  = [
 
       {
       user: "Stevie",
@@ -50,11 +47,5 @@ export class FeedComponent implements OnInit {
   handleLikedTweetFromChildComponet(tweet){
     console.log(tweet);
   }
-
-
-
-
-
-
 
 }
