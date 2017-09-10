@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { FeedComponent } from './feed/feed.component';
 import { LinksCssComponent } from './links-css/links-css.component';
+import { TweetComponent } from './tweet/tweet.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuComponent,
     FeedComponent,
-    LinksCssComponent
+    LinksCssComponent,
+    TweetComponent
   ],
   imports: [
     BrowserModule
