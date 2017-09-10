@@ -1,0 +1,36 @@
+{
+  "tweets": [
+    {
+      "id": 1,
+      "user": "Stevie",
+      "name": "Stevie Feliciano",
+      "body": "is a library scientist living in New York City. She likes to spend her time reading",
+      "likes": [],
+      "avatar": "../../assets/avatar/stevie.jpg"
+    },
+    {
+      "id": 2,
+      "user": "Veronika",
+      "name": "Veronika Ossi",
+      "body": "is a set designer living in New York who enjoys kittens, music, and partying.",
+      "likes": [],
+      "avatar": "../../assets/avatar/veronika.jpg"
+    },
+    {
+      "id": 3,
+      "user": "Jenny",
+      "name": "Jenny Hess",
+      "body": " is a student studying Media Management at the New School.",
+      "likes": [],
+      "avatar": "../../assets/avatar/jenny.jpg"
+    },
+    {
+      "id": 4,
+      "user": "sumbus",
+      "name": "Claud Sumbus",
+      "body": "O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500",
+      "likes": [],
+      "avatar": "../../assets/avatar/sumbus.jpg"
+    }
+  ]
+}

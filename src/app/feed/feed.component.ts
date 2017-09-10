@@ -7,7 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FeedComponent implements OnInit {
 
-
      tweets  = [
 
       {
@@ -38,14 +37,27 @@ export class FeedComponent implements OnInit {
 
   ];
 
+  LikedTweet = undefined;
+  currentUser = 'Stevie';
+
   constructor() { }
 
   ngOnInit() {
   }
 
-
   handleLikedTweetFromChildComponet(tweet){
-    console.log(tweet);
+
+    var index = this.tweets.findIndex(currTweet => {
+      return currTweet.user == tweet.user;
+    })
+
+      this.tweets[index].likes.push(this.currentUser);
+      console.log(this.tweets[index].likes);
+
+  }
+
+  isRetweetedByUser(){
+
   }
 
 }
