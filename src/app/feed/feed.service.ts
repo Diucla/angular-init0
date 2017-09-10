@@ -6,7 +6,7 @@ import {Observable } from 'rxjs';
 @Injectable()
 export class FeedService {
 
-  url = 'http://localhost:3000/tweets'
+  url = 'http://localhost:3000/api/feed'
 
   constructor(private http: Http) { }
 

@@ -18,7 +18,7 @@ export class FeedComponent implements OnInit {
 
   ngOnInit() {
     this.feedService.getTweets().subscribe(data =>{
-      this.tweets = data.json();
+      this.tweets = data.json().tweet;
     })
   }
 
