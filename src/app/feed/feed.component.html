@@ -1,3 +1,27 @@
-<p>
-  feed works!
-</p>
+<div class="ui segment">
+
+    <!-- SE NAO HOUVER TWEETS -->
+    <div class="ui blue message" *ngIf="!tweets">
+        <i class="star icon"></i>
+        Não existem Tweets
+    </div>
+
+    <!-- LISTA DE TWEETS -->
+
+    <div class="ui items">
+
+        <div class="item" *ngFor = 'let tweet of tweets'>
+            <a class="ui tiny image">
+                <img src="{{tweet.avatar}}">
+            </a>
+            <div class="content">
+                <a class="header">{{tweet.name}}</a>
+                <div class="description">
+                    <p>@{{tweet.user}} {{tweet.body}}</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
