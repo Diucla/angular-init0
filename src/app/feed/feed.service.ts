@@ -14,4 +14,8 @@ export class FeedService {
   	return this.http.get(this.url);
   }
 
+  likeTweet(tweet){
+  	return this.http.put(`${this.url}/${tweet.id}`, tweet);
+  }
+
 }

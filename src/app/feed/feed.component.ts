@@ -11,6 +11,9 @@ export class FeedComponent implements OnInit {
 
   tweets;
 
+  likedTweet = undefined;
+  currentUser = 'Stevie';
+
   constructor(private feedService: FeedService) { }
 
   ngOnInit() {
@@ -20,5 +23,9 @@ export class FeedComponent implements OnInit {
   }
 
   handleLikedTweetFromChildComponet(tweet){
+    tweet.likes.push(this.currentUser);
+    this.feedService.likeTweet(tweet).subscribe(data => {
+      console.log(data.json());
+    })
   }
 }
