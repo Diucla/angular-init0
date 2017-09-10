@@ -4,7 +4,6 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { MenuComponent } from './menu/menu.component';
 import { FeedComponent } from './feed/feed.component';
-import { LinksCssComponent } from './links-css/links-css.component';
 import { TweetComponent } from './tweet/tweet.component';
 
 @NgModule({
@@ -12,7 +11,6 @@ import { TweetComponent } from './tweet/tweet.component';
     AppComponent,
     MenuComponent,
     FeedComponent,
-    LinksCssComponent,
     TweetComponent
   ],
   imports: [

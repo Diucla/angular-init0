@@ -19,6 +19,7 @@ export class FeedComponent implements OnInit {
       body: "is a library scientist living " +
       "in New York City. She likes to spend her time reading, " +
       "running, and writing.",
+      likes: ['stevie'],
       avatar: "../../assets/avatar/stevie.jpg"
     },
 
@@ -26,6 +27,7 @@ export class FeedComponent implements OnInit {
           user: "Veronika",
           name: "Veronika Ossi",
           body: "is a set designer living in New York who enjoys kittens, music, and partying.",
+          likes: ['jenny', 'stevie', 'Veronika'],
           avatar: "../../assets/avatar/veronika.jpg"
       },
 
@@ -33,6 +35,7 @@ export class FeedComponent implements OnInit {
           user: "Jenny",
           name: "Jenny Hess",
           body: " is a student studying Media Management at the New School.",
+          likes: [],
           avatar: "../../assets/avatar/jenny.jpg"
       }
 
@@ -42,5 +45,16 @@ export class FeedComponent implements OnInit {
 
   ngOnInit() {
   }
+
+
+  handleLikedTweetFromChildComponet(tweet){
+    console.log(tweet);
+  }
+
+
+
+
+
+
 
 }

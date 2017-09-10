@@ -10,6 +10,15 @@
 			<a class="header">{{tweet.name}}</a>
 			<div class="description">
 				<p>@{{tweet.user}} {{tweet.body}}</p>
+
+				<div class="ui labeled button" tabindex="0">
+				  <div class="ui button">
+				    <i class="heart icon"></i> Like
+				  </div>
+				  <a class="ui basic label" (click)='likeTweet(tweet)'>
+				    <!-- {{}} -->
+				  </a>
+				</div>
 			</div>
 		</div>
 	</div>
