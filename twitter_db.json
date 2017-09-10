@@ -5,7 +5,7 @@
       "user": "Stevie",
       "name": "Stevie Feliciano",
       "body": "is a library scientist living in New York City. She likes to spend her time reading",
-      "likes": [],
+      "likes": ["Claud", "Jenny"],
       "avatar": "../../assets/avatar/stevie.jpg"
     },
     {
@@ -21,7 +21,7 @@
       "user": "Jenny",
       "name": "Jenny Hess",
       "body": " is a student studying Media Management at the New School.",
-      "likes": [],
+      "likes": ["Jenny"],
       "avatar": "../../assets/avatar/jenny.jpg"
     },
     {
